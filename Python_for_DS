@@ -1,9 +1,8 @@
-#drop the columns from dataframe
-
+###drop the columns from dataframe
 df = df.drop(columns = ['columnName1', 'columnName2'])
 
-#drop the rows from dataframe based on a condition
 
+###drop the rows from dataframe based on a condition
 eg. Delete the rows where the value for a column is 0
 df = df.loc(df['value'] > 0) -- this will keep the rows that have values greater than 0
 
